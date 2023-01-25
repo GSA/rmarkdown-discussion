@@ -23,7 +23,9 @@ Here's the [big book](https://rmarkdown.rstudio.com/)!
 template <- here::here("scripts","analysis-plan-template.Rmd")
 ```
 
-[Here](%60r%20template%60) is an example of the our analysis plan template as an RMarkdown. You can look at as a text file of as an RMarkdown.
+In this folder are examples:
+
+1.  Our analysis plan template as an RMarkdown is in this folder called analysis-plan-template.Rmd. You can look at as a text file of as an RMarkdown.
 
 ## Good and challenging
 
