@@ -5,3 +5,4 @@
 *.png
 *.woff
 scripts/rmarkdown-discussion-notes-quarto_files/*
+*.html
