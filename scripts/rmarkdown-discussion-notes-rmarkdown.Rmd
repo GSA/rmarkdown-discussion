@@ -19,6 +19,7 @@ library(tidyverse)
 
 <!-- This way aligns with the text. -->
 
+```{=html}
 <script>
    $(document).ready(function() {
      $head = $('#header');
@@ -26,12 +27,11 @@ library(tidyverse)
      $head.prepend('<img src=\"GSA.png\" style=\"float: left;width: 100px;\"/>')
    });
 </script>
-
+```
 ```{r, echo=FALSE}
 # knitr::include_graphics("GSA.png")
 # knitr::include_graphics("OES.png")
 ```
-
 
 ## What are Rmarkdowns?
 
@@ -52,9 +52,9 @@ template_html <-
 
 In this folder are examples:
 
-[Here](`r template_rmd`) is an example of the our analysis plan template as an RMarkdown. You can look at as a text file of as an RMarkdown.
+[Here](%60r%20template_rmd%60) is an example of the our analysis plan template as an RMarkdown. You can look at as a text file of as an RMarkdown.
 
-[Here](`r template_html`) is an example of the our analysis plan template rendered to html from RMarkdown.
+[Here](%60r%20template_html%60) is an example of the our analysis plan template rendered to html from RMarkdown.
 
 ## Good and challenging
 
@@ -80,7 +80,7 @@ In this folder are examples:
 
 -   You have to get used to it
 
-    -   Note there are two editors one code forward and the other visual that looks more like word or google docs
+    -   Note there are two editors one code forward and the other visual that looks more like word or google docs <!--# I am a comment -->
 
 -   Different collaboration
 
